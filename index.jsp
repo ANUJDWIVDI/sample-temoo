@@ -40,7 +40,7 @@
         // Handle form submission and chat processing
         String message = request.getParameter("message");
         if (message != null && !message.isEmpty()) {
-            String apiKey = "AIzaSyAU_yylyXkc9myUZ_59V9Sjy7--5xmYcpE"; // Replace with your actual API key
+            String apiKey = ""; // Replace with your actual API key
             String apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" + apiKey;
             String responseText = "";
 
